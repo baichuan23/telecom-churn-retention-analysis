@@ -1,0 +1,39 @@
+{
+  "model_name": "Random Forest",
+  "threshold": 0.35,
+  "random_state": 42,
+  "training_rows": 4225,
+  "validation_rows": 1409,
+  "test_rows": 1409,
+  "feature_columns": [
+    "gender",
+    "senior_citizen",
+    "partner",
+    "dependents",
+    "tenure_months",
+    "phone_service",
+    "multiple_lines",
+    "internet_service",
+    "online_security",
+    "online_backup",
+    "device_protection",
+    "tech_support",
+    "streaming_tv",
+    "streaming_movies",
+    "contract",
+    "paperless_billing",
+    "payment_method",
+    "monthly_charges",
+    "total_charges"
+  ],
+  "pandas_version": "3.0.3",
+  "sklearn_version": "1.9.0",
+  "threshold_selection": "Highest validation F1 among the evaluated model-threshold combinations.",
+  "training_scope": "Training split only; no refit after test evaluation.",
+  "limitations": [
+    "Full-dataset EDA preceded the split.",
+    "Random split evaluation does not establish future-period performance.",
+    "Predicted probabilities have no validated future time horizon.",
+    "No observed retention intervention outcomes are available."
+  ]
+}

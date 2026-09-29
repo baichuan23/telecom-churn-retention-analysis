@@ -1,0 +1,28 @@
+{
+  "analysis_type": "Illustrative retention strategy",
+  "candidate_segment": "Higher risk / High value",
+  "candidate_count": 205,
+  "risk_threshold": 0.35,
+  "high_value_rule": "Top 20% of non-churned customers by monthly charges, rounded up; ties ordered by customer_id.",
+  "contact_cost_per_customer": 5.0,
+  "average_offer_cost_per_contacted_customer": 10.0,
+  "retained_months": 6,
+  "contribution_margin": 0.4,
+  "incremental_retention_scenarios": {
+    "Low uplift": 0.02,
+    "Base uplift": 0.05,
+    "High uplift": 0.1
+  },
+  "break_even_incremental_retention": 0.06292636448914843,
+  "monetary_unit": "Same unit as source monthly charges",
+  "limitations": [
+    "Candidate scores include training, validation, and test records.",
+    "Model scores are not validated future-period churn probabilities.",
+    "Incremental retention effects are assumed, not measured.",
+    "The same incremental effect is assumed across candidate customers.",
+    "Each incremental retained customer contributes six full months.",
+    "Contact and average offer costs apply to every contacted customer.",
+    "Fixed setup costs and discounting are excluded.",
+    "Monthly charges are not profit or customer lifetime value."
+  ]
+}

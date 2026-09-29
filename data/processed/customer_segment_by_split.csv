@@ -1,0 +1,13 @@
+﻿segment,split,score_scope,customer_count,monthly_charge_total,average_model_score
+Higher risk / High value,test,Held-out,44,4461.0,0.5249619379347585
+Higher risk / High value,train,In-sample,108,10638.25,0.47849546833267215
+Higher risk / High value,validation,Validation-used,53,5261.85,0.526036533781619
+Higher risk / Other value,test,Held-out,159,10512.85,0.5170015608053565
+Higher risk / Other value,train,In-sample,363,24155.0,0.49493133831593383
+Higher risk / Other value,validation,Validation-used,159,10191.1,0.5086251486313159
+Lower risk / High value,test,Held-out,149,15489.2,0.17330777303580466
+Lower risk / High value,train,In-sample,529,55136.45,0.1495575570557021
+Lower risk / High value,validation,Validation-used,152,15737.75,0.16591701979539095
+Lower risk / Other value,test,Held-out,683,31729.85,0.09678061488776708
+Lower risk / Other value,train,In-sample,2104,101926.8,0.09576201193342908
+Lower risk / Other value,validation,Validation-used,671,31745.65,0.0980768734119758

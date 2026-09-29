@@ -1,0 +1,4 @@
+﻿scenario,assumed_incremental_retention,contacted_customers,expected_incremental_customers,incremental_contribution,campaign_cost,net_benefit,roi,contact_cost_per_customer,offer_cost_per_customer,retained_months,contribution_margin,break_even_uplift,candidate_segment,analysis_type
+Low uplift,0.02,205,4.1,977.3328,3075.0,-2097.6672,-0.6821681951219511,5.0,10.0,6,0.4,0.06292636448914843,Higher risk / High value,Illustrative scenario
+Base uplift,0.05,205,10.25,2443.332,3075.0,-631.6680000000001,-0.2054204878048781,5.0,10.0,6,0.4,0.06292636448914843,Higher risk / High value,Illustrative scenario
+High uplift,0.1,205,20.5,4886.664,3075.0,1811.6639999999998,0.5891590243902438,5.0,10.0,6,0.4,0.06292636448914843,Higher risk / High value,Illustrative scenario
